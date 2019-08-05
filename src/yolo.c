@@ -14,8 +14,8 @@ char *voc_names[] = {"face"};
 
 void train_yolo(char *cfgfile, char *weightfile)
 {
-    char *train_images = "/Users/rizkyario/Downloads/yolo-hand/data/hand/train.txt";
-    char *backup_directory = "/Users/rizkyario/Downloads/yolo-hand/backup";
+    char *train_images = "data/hand/train.txt";
+    char *backup_directory = "backup";
     srand(time(0));
     char *base = basecfg(cfgfile);
     printf("%s\n", base);
